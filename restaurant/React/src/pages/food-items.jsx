@@ -23,6 +23,7 @@ function FoodItems() {
                 return [...prev, { id, name, price, count: 1 }]
             }
         });
+        alert('added to cart')
     }
 
     async function fetchData() {
